@@ -43,3 +43,4 @@ its socket connection at `http://<that-same-host>:3001`. To override, set
 - `1` (on): light green track, green label
 # synced-switch
 # synced-switch
+# synced-switch
