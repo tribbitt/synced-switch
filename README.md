@@ -30,17 +30,11 @@ the switch — every other client updates instantly.
 The Vite dev server is started with `--host`, so on your phone (same Wi-Fi)
 visit `http://<your-laptop-ip>:5173`. The layout is responsive and the toggle
 is sized for touch. On the switch you can either **tap** to flip or **swipe
-the thumb** across — release past the midpoint to commit, release short of it
-to snap back.
+the thumb** across.
 
 If your phone hits the page over your LAN IP, the client automatically points
 its socket connection at `http://<that-same-host>:3001`. To override, set
 `VITE_SERVER_URL` before running `npm run dev`.
-
-## Colors
-
-- `0` (off): light red track, red label
-- `1` (on): light green track, green label
 
 ## Requirements
 
